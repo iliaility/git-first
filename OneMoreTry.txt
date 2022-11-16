@@ -1,1 +1,7 @@
-OneMoreTry string
+Useful git command
+
+git add filename.txt 
+git status
+git log      
+git commit -m "comments for commit"
+git push 
