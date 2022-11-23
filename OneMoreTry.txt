@@ -4,4 +4,34 @@ git add filename.txt
 git status
 git log      
 git commit -m "comments for commit"
-git push 
+git fetch		- copy origin master to local 
+git push		- copy local master to origin 
+git gui&   	- GUI
+gitk&		- visualisation of branches
+git checkout -- filename.txt		- back to initial state only filename.txt
+git checkout .				- back to initial state all files
+git clean -xdf				- also back, include deleting all new files
+git commit --ammend -m "comments for commit"		- update exist commit
+							- or use radio button in git gui&  
+
+git reset HEAD^^ (HEAD~2) 	- used to make all the uncommited changes unstaged
+
+git revert			- remove a commit from a remote repository
+
+git branch --all		- view the list of branches in the repository
+
+git tag release1.0		- mark the current commit with the tag "release1.0
+
+git stash pop			- will delete stash after returning the changes saved in it
+git stash apply			- will leave stash after returning the changes
+
+Help
+git help "command"		- help inside git
+man "command"			- help outside the git
+man git-"command"		- the same as first
+
+git diff 			- show difference between files in WD and SD
+git diff --staged		- show difference between files in SD and HEAD
+
+git rm 'filename.txt'		- delete file
+git mv 'file1.txt' 'file2.txt'	- rename 'file1.txt' to 'file2.txt'
