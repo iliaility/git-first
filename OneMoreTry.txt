@@ -1,5 +1,5 @@
 Useful git command
-
+git init 		- initialise git in current directory 
 git add filename.txt 
 git status
 git log      
