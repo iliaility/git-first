@@ -38,3 +38,4 @@ git rm 'filename.txt'		- delete file
 git mv 'file1.txt' 'file2.txt'	- rename 'file1.txt' to 'file2.txt'
 
 Test line 1
+Test line 2
