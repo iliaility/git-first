@@ -40,3 +40,4 @@ git mv 'file1.txt' 'file2.txt'	- rename 'file1.txt' to 'file2.txt'
 Test line 1
 Test line 2
 Test line 3-
+Test line 4-
