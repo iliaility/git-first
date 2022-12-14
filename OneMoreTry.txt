@@ -1,4 +1,5 @@
 Useful git command
+
 git init 		- initialise git in current directory 
 git add filename.txt 
 git status
@@ -23,7 +24,7 @@ git branch --all		- view the list of branches in the repository
 git tag release1.0		- mark the current commit with the tag "release1.0
 
 git stash pop			- will delete stash after returning the changes saved in it
-git stash apply			- will leave stash after returning the changes
+git stash apply		- will leave stash after returning the changes
 
 Help
 git help "command"		- help inside git
@@ -35,3 +36,5 @@ git diff --staged		- show difference between files in SD and HEAD
 
 git rm 'filename.txt'		- delete file
 git mv 'file1.txt' 'file2.txt'	- rename 'file1.txt' to 'file2.txt'
+
+Test line 1
